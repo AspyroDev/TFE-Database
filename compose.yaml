@@ -1,0 +1,27 @@
+services:
+  database:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER_FILE=/run/secrets/postgres_user  # OPTIONAL - If not specified, "postgres" will be used - Username of superuser
+      - POSTGRES_PASSWORD_FILE=/run/secrets/postgres_password
+      - POSTGRES_DB=tfe_database
+    ports:
+      - 5432:5432
+    volumes:
+      - ./initscripts/:/docker-entrypoint-initdb.d/
+    secrets:
+      - postgres_user
+      - postgres_password
+
+  adminer:
+    image: adminer
+    restart: always
+    ports: 
+      - 8080:8080
+
+secrets:
+  postgres_password:
+    file: ./secrets/postgres-superpassword
+  postgres_user:
+    file: ./secrets/postgres-superuser
