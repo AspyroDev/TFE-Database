@@ -1,7 +1,7 @@
 CREATE TABLE level01_shoppinglist (
     ingredient  varchar(30),    -- Nom de l'ingrédient
     category    varchar(30),    -- Catégorie de l'ingrédient
-    size        varchar(30),    -- Unité de mesure de l'ingrédient
+    sizeunit    varchar(30),    -- Unité de mesure de l'ingrédient
     minsize     int,         -- Taille minimum de l'ingrédient dans l'unité de mesure
     maxsize     int,         -- Taille maximum de l'ingrédient dans l'unité de mesure
     minprice    int,         -- Prix minimum de l'ingrédient
