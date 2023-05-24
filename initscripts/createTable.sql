@@ -28,19 +28,19 @@ INSERT INTO level01_shoppinglist
 INSERT INTO level01_shoppinglist
     VALUES ('Oignon', 'Légumes', 'Kilogramme', 0, 3, 1, 10, '');
 INSERT INTO level01_shoppinglist
-    VALUES ('Poivron', 'Légumes', 'Kilogramme', 0, 3, 1, 10, 'Mesh/Bell pepper green');
+    VALUES ('Poivron', 'Légumes', 'Kilogramme', 0, 3, 1, 10, 'Poivron vert');
 INSERT INTO level01_shoppinglist
     VALUES ('Pomme de terre', 'Légumes', 'Kilogramme', 0, 3, 1, 10, '');
 INSERT INTO level01_shoppinglist
     VALUES ('Salade', 'Légumes', 'Kilogramme', 0, 3, 1, 10, '');
 INSERT INTO level01_shoppinglist
-    VALUES ('Tomate', 'Fruits/Légumes', 'Kilogramme', 0, 3, 1, 10, 'Mesh/Tomato');
+    VALUES ('Tomate', 'Fruits/Légumes', 'Kilogramme', 0, 3, 1, 10, 'Tomate');
 INSERT INTO level01_shoppinglist
     VALUES ('Banane', 'Fruits', 'Kilogramme', 0, 3, 1, 10, '');
 INSERT INTO level01_shoppinglist
     VALUES ('Cerise', 'Fruits', 'Kilogramme', 0, 3, 1, 10, '');
 INSERT INTO level01_shoppinglist
-    VALUES ('Melon', 'Fruits', 'Kilogramme', 0, 3, 1, 10, 'Mesh/Melon');
+    VALUES ('Melon', 'Fruits', 'Kilogramme', 0, 3, 1, 10, 'Melon');
 INSERT INTO level01_shoppinglist
     VALUES ('Orange', 'Fruits', 'Kilogramme', 0, 3, 1, 10, '');
 INSERT INTO level01_shoppinglist
@@ -68,7 +68,7 @@ INSERT INTO level01_shoppinglist
 INSERT INTO level01_shoppinglist
     VALUES ('Boeuf', 'Viandes', 'Kilogramme', 0, 3, 1, 30, '');
 INSERT INTO level01_shoppinglist
-    VALUES ('Agneau', 'Viandes', 'Kilogramme', 0, 3, 1, 30, 'Mesh/Lamb Chop');
+    VALUES ('Agneau', 'Viandes', 'Kilogramme', 0, 3, 1, 30, 'Côte d agneau');
 INSERT INTO level01_shoppinglist
     VALUES ('Poulet', 'Viandes', 'Kilogramme', 0, 3, 1, 30, '');
 INSERT INTO level01_shoppinglist
@@ -78,10 +78,10 @@ INSERT INTO level01_shoppinglist
 INSERT INTO level01_shoppinglist
     VALUES ('Viande hachée', 'Viandes', 'Kilogramme', 0, 3, 1, 30, '');
 INSERT INTO level01_shoppinglist
-    VALUES ('Poisson', 'Viandes', 'Kilogramme', 0, 3, 1, 30, 'Mesh/Salmon');
+    VALUES ('Poisson', 'Viandes', 'Kilogramme', 0, 3, 1, 30, 'Salmon');
 INSERT INTO level01_shoppinglist
     VALUES ('Eau', 'Boissons', 'Litre', 0, 20, 1, 5, '');
 INSERT INTO level01_shoppinglist
-    VALUES ('Cookie', 'Épicerie', 'Pièce', 0, 5, 1, 10, 'Mesh/Cookie');
+    VALUES ('Cookie', 'Épicerie', 'Pièce', 0, 5, 1, 10, 'Cookie');
 INSERT INTO level01_shoppinglist
-    VALUES ('Pêche', 'Fruits', 'Kilogramme', 0, 3, 1, 10, 'Mesh/Peach');
+    VALUES ('Pêche', 'Fruits', 'Kilogramme', 0, 3, 1, 10, 'Pêche');
